@@ -183,7 +183,7 @@ class VectorApp:
         
         Args:
             query_text: 查询文本
-            limit: 返回结果数量上限，默认为 3
+            limit: 返回结果数量上限，默认为 5
             include_subdirectories: 是否包含子目录相关内容，默认为 True
             
         Returns:

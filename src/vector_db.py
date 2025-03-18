@@ -476,7 +476,6 @@ class VectorDB:
                 return True
             else:
                 # 如果指定了主题，先获取所有数据，然后在内存中过滤
-                # 如果指定了主题，先获取所有数据，然后在内存中过滤
                 results = self.client.query(
                     collection_name=self.collection_name,
                     filter="id >= 0",  # 使用 filter 参数
